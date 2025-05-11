@@ -5,20 +5,60 @@ body {
   color: rgb(74, 74, 74);
 }
 
-ul {
+header {
+    display: flex;
+    background-color: #f3f5f5;
+    height: 64px;
+    width: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header ul {
     list-style: none;
+    display: inline;
+    text-align: right;
+}
+
+header li {
+    display: inline;
+    padding: 16px;
+    text-align: right;
 }
 
 ul a {
     text-decoration: none;
 }
 
+/* Website Content */
+
+
+
 .learn {
     background-color: rgb(216	216	216	)
 }
 
-.learning {
-    background-color: rgb(216, 216, 216);
+#start {
+    color: white;
+    background-color: rgb(73, 73, 73);
+}
+
+.grid-container {
+    display: flex;
+    padding: 0 72px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.grid-container li {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
 }
 
 .learning a {
